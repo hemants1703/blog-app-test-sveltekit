@@ -2,7 +2,7 @@
 	export let data;
 </script>
 
-<div class="mt-12">
+<div class="mt-16">
 	<h1 class="text-4xl flex items-center gap-2">
 		<a href="/blog">
 			<svg

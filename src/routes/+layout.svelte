@@ -5,7 +5,9 @@
 
 <div>
 	<div class="fixed flex justify-center items-center w-full mt-2">
-		<nav class="flex bg-slate-50 p-2 rounded-full">
+		<nav
+			class="flex bg-slate-50 bg-opacity-50 backdrop-blur-lg p-1 rounded-full border-2 shadow-md"
+		>
 			<a
 				href="/"
 				class="p-2 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full">Home</a

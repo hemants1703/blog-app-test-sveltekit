@@ -23,11 +23,13 @@
 		Blog App
 	</h1>
 
-	{#each data.summaries as { slug, title }}
-		<article class="bg-slate-200 p-4 hover:bg-slate-300 transition-all duration-100 ease-in-out">
-			<a href={`blog/${slug}`} class="hover:bg-slate-300">
-				<h2>{title}</h2>
-			</a>
-		</article>
-	{/each}
+	<div class="overflow-hidden rounded-2xl">
+		{#each data.summaries as { slug, title }}
+			<article class="bg-slate-200 p-4 hover:bg-slate-300 transition-all duration-100 ease-in-out">
+				<a href={`blog/${slug}`} class="hover:bg-slate-300">
+					<h2>{title}</h2>
+				</a>
+			</article>
+		{/each}
+	</div>
 </div>
