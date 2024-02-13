@@ -1,4 +1,4 @@
-import { posts } from '../blog/data';
+import { posts } from '$lib/data';
 
 export const actions = {
     default: async ({ request }) => {
