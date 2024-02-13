@@ -10,19 +10,23 @@
 		>
 			<a
 				href="/"
-				class="p-2 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full">Home</a
+				class="px-2 py-0.5 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full"
+				>Home</a
 			>
 			<a
 				href="/blog"
-				class="p-2 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full">Blog</a
+				class="px-2 py-0.5 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full"
+				>Blog</a
 			>
 			<a
 				href="/post"
-				class="p-2 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full">Post</a
+				class="px-2 py-0.5 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full"
+				>Post</a
 			>
 			<a
 				href="/table"
-				class="p-2 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full">Table</a
+				class="px-2 py-0.5 hover:bg-slate-200 transition-all duration-100 ease-in-out rounded-full"
+				>Table</a
 			>
 		</nav>
 	</div>
