@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Define your color variables */
+:root {
+    --background-color-light: #f7f7f7;
+    --background-color-dark: #333;
+}
+
+body {
+    /* Use the CSS variables for your colors */
+    background-color: var(--background-color-light);
+}
+
+.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--background-color-light);
+}

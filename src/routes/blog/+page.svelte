@@ -2,6 +2,10 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Blogs</title>
+</svelte:head>
+
 <div class="mt-16">
 	<h1 class="text-4xl flex items-center gap-2 pb-4">
 		<span>
